@@ -76,4 +76,6 @@ You can verify by using `ls -l` or `ls -d` if directory is created or not.
 
 >If the file exists it updates the timestamp and keeps the content intact.
 
-**`> test.txt`** -> faster than touch > [!WARNING] overwrites the test.txt if already exists and all data will be lost.
+**`> test.txt`** -> faster than touch 
+
+>[!WARNING] overwrites the test.txt if already exists and all data will be lost.

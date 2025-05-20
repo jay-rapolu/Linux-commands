@@ -80,5 +80,5 @@ You can verify by using `ls -l` or `ls -d` if directory is created or not.
 
 <p style="color: darkorange">overwrites the test.txt if already exists and all data will be lost. </p>
 
-$${\color{orange}overwrites the test.txt if already exists and all data will be lost.}$$
+[#7fffff00]overwrites the test.txt if already exists and all data will be lost.
 

@@ -78,7 +78,8 @@ You can verify by using `ls -l` or `ls -d` if directory is created or not.
 
 **`> test.txt`** -> faster than touch 
 
-<p style="color:darkorange">overwrites the test.txt if already exists and all data will be lost. </p>
+>overwrites the test.txt if already exists and all data will be lost. 
 
-<span style="color:red">overwrites the test.txt if already exists and all data will be lost.</span>
+![Custom](https://img.shields.io/badge/Important-red?style=flat-square) overwrites
 
+:warning: warning

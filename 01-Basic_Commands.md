@@ -78,7 +78,7 @@ You can verify by using `ls -l` or `ls -d` if directory is created or not.
 
 **`> test.txt`** -> faster than touch 
 
-<p style="color: darkorange">overwrites the test.txt if already exists and all data will be lost. </p>
+<p style="color:darkorange">overwrites the test.txt if already exists and all data will be lost. </p>
 
-[#7fffff00]overwrites the test.txt if already exists and all data will be lost.
+<span style="color:red">overwrites the test.txt if already exists and all data will be lost.</span>
 

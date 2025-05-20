@@ -74,12 +74,8 @@ You can verify by using `ls -l` or `ls -d` if directory is created or not.
 
 **`touch test.txt`** -> Creates an empty file named test.txt.
 
->If the file exists it updates the timestamp and keeps the content intact.
+:information_source: If the file exists it updates the timestamp and keeps the content intact.
 
 **`> test.txt`** -> faster than touch 
 
->overwrites the test.txt if already exists and all data will be lost. 
-
-![Custom](https://img.shields.io/badge/Important-red?style=flat-square) overwrites
-
-:warning: warning
+:warning: overwrites the test.txt if already exists and all data will be lost. 

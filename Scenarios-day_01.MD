@@ -1,5 +1,5 @@
 ### Create a project directory structure for a microservice app (include logs, config, scripts, tmp folders).
-> `mkdir -p auth-service/{config,scripts,logs,build,tmp,deploy}`
+> <span style="color: orange"> `mkdir -p auth-service/{config,scripts,logs,build,tmp,deploy}` </span>
 ### Find all files larger than 10MB inside /var (no ls). 
 > `find /var -type f -size +10M -exec du -h {} + | sort -n`
 ### Search inside all .log files for “ERROR” and store results in a separate file. 
@@ -8,3 +8,5 @@
 > `find /etc -type f -name "*.conf" -exec mv {} /home/ec2-user/all-configs/ \;`
 ### Identify the 20 most recently modified files inside /etc.
 >`sudo find /etc -type f -printf '%T@ %p\n' | sort -nr | head -n 20`
+### Find all hidden files in your home directory and list them with full paths. 
+> `find ~ -type f -name ".*" -printf '%p\n'`

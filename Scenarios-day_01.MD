@@ -10,3 +10,11 @@
 >`sudo find /etc -type f -printf '%T@ %p\n' | sort -nr | head -n 20`
 ### Find all hidden files in your home directory and list them with full paths. 
 > `find ~ -type f -name ".*"  -printf "%p\n"`
+### Delete all empty directories inside a project folder.
+> `find project -type d -empty -delete`
+### Create a compressed archive of a folder but exclude .git and node_modules. 
+> `tar cvzf project.tar.gz --exclude=".git" --exclude="node_modules" project/ `
+### Count how many files and directories exist inside /var/log. 
+> `find /var/log/ -type f -print | wc -l && find /var/log/ -type d print | wc -l`
+### Find the 10 largest files under /home.
+> `find /home -type f -exec du -h {} + | sort -nr | head`

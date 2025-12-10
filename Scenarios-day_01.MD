@@ -1,5 +1,7 @@
 ### Create a project directory structure for a microservice app (include logs, config, scripts, tmp folders).
-> <span style="color: orange"> `mkdir -p auth-service/{config,scripts,logs,build,tmp,deploy}` </span>
+
+<span style="color:orange; background-color:rgba(211,211,211,0.2); border-radius: 5px; padding:0px 8px"><b> mkdir -p auth-service/{config,scripts,logs,build,tmp,deploy}</b> </span>
+
 ### Find all files larger than 10MB inside /var (no ls). 
 > `find /var -type f -size +10M -exec du -h {} + | sort -n`
 ### Search inside all .log files for “ERROR” and store results in a separate file. 
